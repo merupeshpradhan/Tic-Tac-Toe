@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import TicTacToe from "./tic-tac-toe";
 
 function App() {
   return (
-    <div>App</div>
-  )
+    <div>
+      {/* Tic Tac Toe */}
+      <TicTacToe />
+    </div>
+  );
 }
 
-export default App
+export default App;
